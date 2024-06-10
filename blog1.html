@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .nav-item {
+            padding: 0px 30px 0px 30px;
+        }
+
+        #ce {
+            display: grid;
+            place-items: center;
+            background-color: orange;
+            height: 50%;
+            width: 100%;
+
+        }
+
+        .bot {
+            background-color: #192951;
+            color: white;
+            padding: 1% 10% 1% 10%;
+            position: absolute;
+            bottom: 5%;
+            left: 5%;
+            border: 3px solid black;
+        }
+        .im{
+            width: 300px;
+            height: 250px;
+            overflow: hidden;
+            background-position: 0px - 20px;
+        }
+
+        .c{
+            background-color: darkgray;
+            margin-right: -5px;
+        }
+    </style>
+    <title>Blog</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align: center; margin: 20px; color: #191919;"><strong>Escuela de Danza</strong></h1>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Clases</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="container" id="#ce" style="width: 100%; height: 100%;">
+            <br>
+            <h2 style="text-align: center;"><strong>Blog</strong></h2>
+            <br>
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-4 im c" style=" align-items:center">
+                        <img src="img/blog1.jpg" class="img-fluid rounded-start" alt="..." width="100%">
+                    </div>
+                    <div class="col-md-8 c">
+                        <div class="card-body ">
+                            <h5 class="card-title">Clases En cualquier parte</h5>
+                            <p class="card-text"><small class="text-muted">20 de Marzo del 2023</small></p>
+                            <p class="card-text">Anímate a encender la música y diviértete en la intimidad de tu casa al
+                                mismo tiempo que haces ejercicio físico, que te ayudarán a mejorar en las habilidades de
+                                danza urbana (o de cualquier estilo de baile que desees elegir) estando en Lima o en
+                                cualquier ciudad del Perú </p>
+                        </div>
+                        <button class="bot">Ver mas</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-4 c">
+                        <img src="img/profesor_5.jpg" class="img-fluid rounded-start" alt="..." width="100%">
+                    </div>
+                    <div class="col-md-8 c">
+                        <div class="card-body c">
+                            <h5 class="card-title">El Ballet Clásico en la infancia</h5>
+                            <p class="card-text"><small class="text-muted">12 de febrero del 2023</small></p>
+                            <p class="card-text">La memorización de secuencias de pasos y coreografías en el ballet
+                                clásico estimula el desarrollo cognitivo de los niños. La coordinación de movimientos,
+                                la memoria espacial y la conexión entre la música y el movimiento mejoran las
+                                habilidades cognitivas.
+                            </p>
+                            <button class="bot">Ver mas</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card mb-3" style="max-width: 100%;">
+                <div class="row g-0">
+                    <div class="col-md-4 c">
+                        <img src="img/instructor_1.jpg" class="img-fluid rounded-start" alt="..." width="100%">
+                    </div>
+                    <div class="col-md-8 c">
+                        <div class="card-body c">
+                            <h5 class="card-title">Ballet Clásico en Adultos</h5>
+                            <p class="card-text"><small class="text-muted">10 de enero del 2023</small></p>
+                            <p class="card-text">Para muchos adultos, el ballet clásico se convierte en una forma de
+                                arte terapéutica que les permite desconectar de las tensiones diarias. Además, la
+                                conexión entre la música y el movimiento en el ballet contribuye a una experiencia
+                                catártica que puede aliviar el estrés </p>
+                            <button class="bot">Ver Mas</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="contacto bg-light py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="formulario bg-white p-4">
+                            <h1>Contáctanos</h1>
+                            <input type="text" class="form-control mb-3" placeholder="Nombre">
+                            <input type="email" class="form-control mb-3" placeholder="Email">
+                            <textarea class="form-control mb-3" rows="4" placeholder="Mensaje"></textarea>
+                            <button class="btn btn-primary btn-block">ENVIAR</button>
+                        </div>
+                    </div>
+                    <div class="col-md-8">
+                        <img src="img/shoes_!.jpg" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="bg-dark text-white py-4">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4><small>© Escuela de danza. Todos los derechos reservados.</small></h4>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </main>
+</body>
+
+</html>

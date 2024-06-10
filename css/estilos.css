@@ -1,0 +1,504 @@
+#m1{
+    background-image: url("/escuela_danza/img/dance_1.jpg");
+    height: 500px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+#studio{
+    position: absolute;
+    height: 30%;
+    width: 20%;
+    left: 10%;
+    bottom: 40%;
+    text-align: justify;
+    color: white;
+}
+
+#m11{
+    background-color: #192951;
+    padding: 0px;
+    margin: 2px;
+    color: white;
+}
+#b1{
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    padding: 5px 25px 5px 25px;
+    border: 3px solid #060529;
+    background-color: #060529;
+    color: white;
+}
+
+.nave{
+    color: rebeccapurple;
+}
+#m2{
+    height: 200px;
+}
+.c2{
+    text-align: center;
+}
+#p2{
+    position: absolute;
+    left:30%;
+    right: 40%;
+    width: 40%;
+    font-size: 30px;
+    text-align: center;
+}
+
+#i21{
+    margin-top: 20px;
+    position: absolute;
+    text-align: center;
+    left: 45%;
+}
+
+#c1{
+    text-align: center;
+    position: absolute;
+    bottom: -200px;
+    left: 41%;
+    padding: 10px 100px 10px 100px;
+    border: 5px solid #060529;
+    background-color: #060529;
+    color: white;
+}
+
+
+.col{
+    height: 400px;
+    width: 100%         ;
+}
+
+.contenedor-imagenes {
+    display: flex;
+  }
+  
+  .contenedor-imagenes img:first-child {
+    margin-right: 10px;
+  }
+
+  *{
+	font-family: "Latolight";
+	margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina el padding predeterminado */
+}
+
+/* fuentes de texto */
+@font-face{
+	font-family: LatoHeavy;
+	src: url(escuela_danza/fonts/Lato-Heavy.ttf);
+}
+@font-face{
+	font-family:Latolight ;
+	src: url(escuela_danza/fonts/Latolight.ttf);
+}
+@font-face{
+	font-family: DolceVita;
+	src: url(escuela_danza/fonts/DolceVita.ttf);
+}
+@font-face{
+	font-family: Neoteric-Bold;
+	src: url(escuela_danza/fonts/Neoteric-Bold.ttf);
+}
+
+/* Shortcuts */
+
+.card {
+    /* border: 2px solid #4CAF50;  // Cambiar el borde */
+    border-radius: 0px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Sombra */
+    transition: transform 0.2s; /* Transición suave */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumentar tamaño al pasar el ratón */
+}
+
+.card .card-header {
+    /* background-color: #4CAF50; / / Cambiar el fondo del header */
+    color: white; /* Cambiar el color del texto */
+}
+
+.card .card-body {
+    background-color: #f9f9f9; /* Cambiar el fondo del cuerpo */
+}
+
+.card-custom img {
+	width: 100%; /* Asegurar que la imagen ocupe todo el ancho */
+	height: 25rem; /* Altura fija para la imagen */
+	object-fit: cover; /* Mantener proporciones y recortar si es necesario */
+	border-top-left-radius: 0px; /* Alinear con los bordes redondeados de la tarjeta */
+	border-top-right-radius: 0px; /* Alinear con los bordes redondeados de la tarjeta */
+}
+
+.row-bg {
+	background-image: url('escuela_danza/img/cubes.png'); /* Ruta a tu imagen de fondo */
+	background-size: cover; /* Cubrir todo el contenedor */
+	background-position: center; /* Centrar la imagen */
+	background-repeat: no-repeat; /* No repetir la imagen */
+	padding: 40px 0; /* Padding opcional para separar el contenido */
+}
+
+a {
+    text-decoration: none; /* Elimina el subrayado */
+    color: inherit; /* Hereda el color del texto del elemento padre */
+}
+
+a:hover {
+    text-decoration: none; /* Mantiene el estilo sin subrayado al pasar el ratón */
+    color: #000; /* Cambia el color al pasar el ratón, si lo deseas */
+}
+
+.contenedordoble{
+	border: 2px solid #192951; /* Borde por dentro */
+    box-sizing: border-box; /* Incluye el borde en el cálculo del tamaño del contenedor */
+    padding: 2px;
+	background-image: url('escuela_danza/img/instructor_4.jpg'),url('escuela_danza/img/profesor_9.jpg');
+    background-position: left -5px, right 5px; /* Posición de las imágenes */
+    background-size: 50% auto, 50% auto; /* Cada imagen ocupa el 50% del ancho del contenedor */
+    position: relative; /* Establece la posición relativa para que los elementos hijos se posicionen relativos a este */
+    width: 100%; /* Ajusta el ancho del contenedor según sea necesario */
+    height: 450px; /* Ajusta la altura del contenedor según sea necesario */
+    color: white; /* Establece el color del texto */
+	background-repeat: no-repeat, repeat-y; /* Repetición de las imágenes */
+}
+
+.bazul{
+	font-size: 30px;
+	position:absolute;
+	color: white;
+	top: 100%;
+	padding: 35px 305px 35px 305px;
+	background-color: rgb(26, 41, 82);
+	left: 50%;
+	transform: translate(-50%, -100%);
+}
+
+.ff{
+    font-family: LatoHeavy;
+}
+
+body, .container-fluid {
+    margin: 0;
+    padding: 0;
+}
+
+.imagen-recortada {
+    height: 580px; /* Altura deseada */
+    padding: 0;
+    margin: 0;
+}
+
+.contenmap{
+	background-color: #192951;
+	width: 100%;
+	height: 550px;
+}
+
+.ww{
+	width:100%;
+}
+
+.card-img-top {
+	width: 100%;
+	height: 15vw;
+	object-fit: cover;
+}
+.card-title {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.card-text {
+	font-size: 1rem;
+}
+
+.contenconta{
+	width: 100%;
+	height: 550px;
+}
+
+.contenedor{
+	position: relative; /* Establece la posición relativa para que los elementos hijos se posicionen relativos a este */
+    color: white; /* Establece el color del texto */
+}
+
+.bisize0{
+	width: 100%; /* Ajusta el ancho del contenedor según sea necesario */
+    height: 580px; /* Ajusta la altura del contenedor según sea necesario */
+}
+
+.contenedor.bisize2 {
+    height: 200px; /* Establece la altura deseada para la fila */
+}
+
+.sizconten{
+	position: relative;
+	width: 100%;
+	height:100px;
+}
+
+.contabajo{
+	background-color: #192951;
+	width: 100%;
+	height: 80px;
+}
+
+.bisize1{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img1{
+	background-image: url('escuela_danza/img/dance_1.jpg');
+	width: 100%;
+	background-size: cover;
+}
+
+.imgzaps{
+	width: 1200px;
+	height: auto;
+    position: relative; /* Establece la posición absoluta */
+    top: 0; /* Ajusta la posición vertical */
+    margin-left: auto;
+}
+
+.contacto{
+	background-color: #ffffff;
+	text-align: center;
+}
+.nombre input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.formulario h1{
+	color: #212A5E;
+	font-size: 30px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	text-align: left;
+}
+.formulario{
+	margin-left: 100px;
+	z-index: 2000;
+	margin-top: 50px;
+}
+.mensaje input{
+	width: 400px;
+	height: 150px;
+	font-size: 16px;
+}
+.email input{
+	width: 400px;
+	height: 40px;
+	font-size: 16px;
+	margin-bottom: 15px;
+}
+.contacto button{
+	color: #ffffff;
+	background-color: #100F31;
+	border: none;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: lighter;
+	width: 400px;
+	margin-top: 15px;
+	height: 50px;
+}
+.texto-superpuesto {
+	position: absolute;
+	color: white; /* Color del texto */
+}
+
+.textgran{
+	font-size: 100px;
+}
+
+.texti{
+	position: relative;
+	left:100px;
+	top:150px;
+}
+
+.texti2{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	top:30px;
+}
+
+.posi1{
+	top: 15%; /* Coloca el texto en la mitad superior del contenedor */
+    left: 10%;
+}
+
+.texto2{
+	position: absolute;
+	font-size: 40px;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-style: italic;
+}
+
+.texto2p{
+	position: absolute;
+	font-size: 40px;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	font-style: italic;
+}
+
+.decor1{
+	position: absolute; /* Establece la posición absoluta */
+	top: 45%; /* Coloca la parte superior de la imagen en el centro vertical del contenedor */
+    left: 50%;
+	transform: translate(-50%, -35%);
+	width: 160px;
+}
+
+.latoHeavy{
+	font-family: "LatoHeavy";
+}
+
+.textu2{
+	background-image: url('escuela_danza/img/textura_2.jpg');
+	background-repeat: repeat;
+	position:absolute;
+	display: flex;
+	width: 100%;
+	height: 500px;
+}
+
+.te11{
+	height: 350px;
+}
+
+.bip{
+	width: 100%;
+	height: auto;
+	background-size: cover;
+}
+
+.j2{
+	position: absolute;
+	top: 70%;
+	padding: 35px 140px 35px 140px;
+	border-radius: 10px;
+	background-color: rgb(26, 41, 82);
+	left: 50%;
+	transform: translate(-50%, -60%);
+	color:rgb(197, 201, 200);
+}
+
+.j3{
+	position: relative;
+	top: -100%;
+	padding: 15px 70px 15px 70px;
+	border-radius: 10px;
+	background-color: rgb(26, 41, 82);
+	left: 10%;
+	transform: translate(-50%, -60%);
+	color:rgb(197, 201, 200);
+}
+
+.pd-0{
+	padding: 0;
+}
+.pt-5{
+	padding-top: 5%;
+}
+
+.ple{
+	padding-left: 480px;
+	font-weight: bold;
+}
+
+.pb-5{
+	padding-bottom: 5%;
+}
+.mg-0{
+	margin: 0;
+}
+.mg-10{
+	margin: 30px;
+}
+.w-100{
+	width: 100%;
+}
+.lh{
+	line-height: 1.5;
+}
+.lh2{
+	line-height: 2;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
+.text-white{
+	color: white;
+}
+.text-gray{
+	color: rgb(83, 88, 95);
+}
+
+.text-mediplo{
+	color:rgb(197, 201, 200);
+}
+
+.text-negro{
+	color:rgb(0, 0, 0);
+}
+
+.text-blue{
+ 	color: #192951;
+}
+.a-none-decoration{
+	text-decoration: none;
+}
+.bg-gray{
+	background-color: rgb(244, 244, 244);
+}
+.bg-gray2{
+	background-color: rgba(0, 0, 0,0.3);
+}
+
+.bg-gray3{
+	color: white;
+}
+
+.bg-img-block{
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.btn-custom-blue {
+	background-color: #007bff; /* Color azul personalizado */
+	border-color: #007bff; /* Color del borde */
+	color: white; /* Color del texto */
+}
+.btn-custom-blue:hover {
+	background-color: #0056b3; /* Color azul oscuro para el estado hover */
+	border-color: #0056b3; /* Color del borde para el estado hover */
+}
+
+.logo {
+	max-width: 100px; /* Ajusta el tamaño máximo del logo */
+	height: auto; /* Mantiene la proporción del logo */
+}

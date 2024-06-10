@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .nav-item {
+            padding: 0px 30px 100px 30px;
+        }
+        .padre{
+            margin: 5%;
+            margin-bottom: 100%;
+        }
+        .m{
+            margin-bottom:2%;
+        }
+
+        .card-text{
+            text-align: center;
+        }
+    </style>
+    <title>Clases</title>
+</head>
+<body>
+    <header>
+        <h1 style="text-align: center; margin: 20px; color: #191919;"><strong>Escuela de Danza</strong></h1>
+        <ul class="nav justify-content-center">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#">Nosotros</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Clases</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <div class="container">
+            <h2 style="text-align: center; margin-bottom: 5%;">Oferta de Clase</h2>
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col m">
+                  <div class="card" class="padre" style="position: relative;">
+                    <img src="img/dance_12.jpg" class="card-img-top" alt="...">
+                    <div style="position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; display: grid; place-items: center; top: 50%; left: 50%;   transform: translate(-50%, -50%);">
+                        <h5>BALLET</h5>
+                        <p class="card-text"><small> ballet es la base de casi todos los estilos de baile</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m">
+                  <div class="card" class="padre" style="position: relative;">
+                    <img src="img/breakdance.jpg" class="card-img-top" style="max-height: 435px;" alt="...">
+                    <div style="position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; display: grid; place-items: center; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                        <h5> Dance Moderna</h5>
+                      <p class="card-text"><small> Atreve a bailar la musica del momento</small></p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col m">
+                    <div class="card" class="padre" style="position: relative;">
+                      <img src="img/lirical-jazz.jpg" class="card-img-top" style="max-height: 435px;" alt="...">
+                      <div style="position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; display: grid; place-items: center; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                          <h5> Lirica Jazz</h5>
+                        <p class="card-text"> <small>La fusión del jazz y el ballet clásico</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <br><br><br>
+                  <div class="col">
+                    <div class="card" class="padre" style="position: relative;">
+                      <img src="img/arabe.jpg" class="card-img-top" style="max-height: 435px;" alt="...">
+                      <div style="position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; display: grid; place-items: center; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                          <h5> Arabic Dance</h5>
+                        <p class="card-text"> <small> Clases enfocadas en la técnica americana y egipcia. </small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col m">
+                    <div class="card" class="padre" style="position: relative;">
+                      <img src="img/little.jpg" class="card-img-top" style="max-height: 435px;" alt="...">
+                      <div style="position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; display: grid; place-items: center; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                          <h5> Kid Lessons</h5>
+                        <p class="card-text"><small>Haz que tu menor descubra un nuevo hobbie</small></p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col m">
+                    <div class="card" class="padre" style="position: relative;">
+                      <img src="img/yoga.jpg" class="card-img-top" style="max-height: 435px;" alt="...">
+                      <div style="position: absolute; background-color: rgba(0, 0, 0, 0.8); color: white; display: grid; place-items: center; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                          <h5> Yoga</h5>
+                        <p class="card-text"><small>Enriquecer la enseñanza y formación de la Yoga</small></p>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+        </div>
+    </main>
+    <section class="contacto bg-light py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="formulario bg-white p-4">
+                        <h1>Contáctanos</h1>
+                        <input type="text" class="form-control mb-3" placeholder="Nombre">
+                        <input type="email" class="form-control mb-3" placeholder="Email">
+                        <textarea class="form-control mb-3" rows="4" placeholder="Mensaje"></textarea>
+                        <button class="btn btn-primary btn-block">ENVIAR</button>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <img src="img/shoes_!.jpg" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white py-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h4><small>© Escuela de danza. Todos los derechos reservados.</small></h4>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
